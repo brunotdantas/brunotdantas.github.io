@@ -1,370 +1,251 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<title>Bruno Dantas Portfolio</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
+  <!-- Metadata of the Webpage -->
+  <!-- Character-set Metadata -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Viewport Metadata -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Description Metadata-->
+  <meta name="description" content="Portfolio Website" />
+  <!-- Author Metadata -->
+  <meta name="author" content="Bruno Dantas" />
+  <!-- Keyword Metadata -->
+  <meta name="keywords" content="Bruno Dantas, brunotdantas, Bruno" />
+  <!-- Webpage Logo -->
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+  <!-- Webpage Title -->
+  <title>Bruno Dantas</title>
+
+  <!-- Import CSS: Main Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/main.css" />
 </head>
 
-<body class="is-preload">
+<body>
+  <div id="particles-js">
+    <div class="header">
+      <h1>
+        <span class="site-title">Bruno Dantas</span>
+        <span class="site-description">Programmer and .NET Developer </span>
+      </h1>
+      <div class="header-icons">
+        <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/bdantas01/">
+          <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a aria-label="My Github Profile" target="_blank" href="https://github.com/brunotdantas">
+          <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+        </a>
+        <a aria-label="My Resume" target="_blank" href="./assets/public/BRUNODANTAS_EN.pdf">
+          <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+        </a>
+        <a aria-label="Send Email" href="mailto:brunotdantas@outlook.com" target="_blank"><i
+            class="icon fa fa-envelope"></i></a>
+      </div>
+      <div class="header-links">
+        <a class="link" href="#about" data-scroll>About Me</a>
+        <a class="link" href="#projects" data-scroll>Projects</a>
+      </div>
+    </div>
+    <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+  </div>
 
-	<!-- Header -->
-	<header id="header">
-		<div class="inner">
-			<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-			<h1><strong>Hello, I'm Bruno!</strong><br />
-				Current working as Solution architect and Database developer at <a
-					href="https://www.elcompanies.com/en">Estée Lauder</a>,
-				living in São Paulo, Brazil<br />
-		</div>
-	</header>
+  <!-- About Section -->
+  <section id="about">
+    <!-- User Introduction-->
+    <div class="user-details">
+      <h1>My Story</h1>
+      <picture>
+        <source type="image/webp" srcset="./assets/img/webp/Professional-Picture-Me.webp" alt="Professional Me"
+          width="20%" style="border-radius: 50%" />
+        <img src="./assets/img/jpg/Professional-Picture-Me.jpg" alt="Professional Me" width="20%"
+          style="border-radius: 50%" />
+      </picture>
+      <p>
+        Hello!🖐 I'm a Self-taught developer working with IT since 2013.
+        I have a Bachelor's Degree in Computer Systems Engineering and 2 years of experience coursing Administration
+        Bachelor.
+        My biggest experience is working with integrations and development of stored procedures.
+        Help people solve problems through quality software 😁, I'm Always opened for new challenges,
+        keep studying new languages and technologies that's always important to me.
+      </p>
+    </div>
 
-	<!-- Main -->
-	<div id="main">
+    <!-- User Specifics -->
+    <div class="user">
+      <!-- Technology Stack #1: Languages -->
+      <div class="tech">
+        <h2>Languages</h2>
+        <i class="devicon-csharp-plain colored"></i>
+        <i class="devicon-php-plain colored"></i>
+        <i class="devicon-microsoftsqlserver-plain-wordmark colored"></i>
+        <i class="devicon-javascript-plain colored"></i>
+        <p>Languages I have experience with</p>
+      </div>
 
-		<!-- One -->
-		<section id="one">
-			<header class="major">
-				<h2>Know a little bit more about me</h2>
-			</header>
-			<p>
-				Always in love with technology, I am lucky to be able to work with what I like.
+      <!-- Technology Stack #2: Front-End -->
+      <div class="tech">
+        <h2>Front-End</h2>
+        <i class="devicon-react-original colored"></i>
+        <i class="devicon-nextjs-original colored"></i>
+        <i class="devicon-bootstrap-plain-wordmark colored"></i>
+        <i class="devicon-html5-plain-wordmark colored"></i>
+        <i class="devicon-css3-plain-wordmark colored"></i>
+        <i class="devicon-figma-plain colored"></i>
+        <p>My preferred technologies for front-end web development and component design.</p>
+      </div>
 
-			<p>
-				I have a self-taught profile and am very interested in new technologies that solve simple or complex
-				problems.
-				What brings me joy in a workplace is to build something that can help an area or a person,
-				make something better, that's my passion.
-			</p>
-			<p>
-				Daily I have different opportunities to work in different roles in my team so shift positions is not a
-				problem,
-				already had experiences as database developer, project manager, functional analyst, technical analyst,
-				made trainings,
-				learned to support new evironment from scratch and build entire integration solutions
-			</p>
-			</p>
+      <!-- Technology Stack #3: Back-End -->
+      <div class="tech">
+        <h2>Back-End</h2>
+        <i class="devicon-nodejs-plain colored"></i>
+        <i class="devicon-express-original-wordmark colored"></i>
+        <i class="devicon-mongodb-plain-wordmark colored"></i>
+        <i class="devicon-postgresql-plain-wordmark colored"></i>
+        <i class="devicon-sqlite-plain colored"></i>
+        <i class="devicon-microsoftsqlserver-plain-wordmark"></i>
+        <p>My preferred technologies for back-end web programming and database architecture.</p>
+      </div>
+    </div>
+  </section>
 
-		</section>
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="user-details">
+      <h1>Featured Projects</h1>
+    </div>
 
-		<!-- Two -->
-		<section id="two">
-			<header class="major">
-				<h2>Portfolio</h2>
-			</header>
-			<br>
+    <!-- User Project #1: Move it SPA -->
+    <div class="user-projects">
+      <div class="images-right">
+        <picture>
+          <source type="image/webp"
+            srcset="https://user-images.githubusercontent.com/19207320/122602476-44c6c780-d049-11eb-9013-749d55fc4b21.gif"
+            alt="Move it Website" />
+          <img alt="Move itWebsite" src="./assets/img/jpg/Personal-Resume-Website.jpg" />
+        </picture>
+      </div>
+      <div class="contents" style="text-align: center">
+        <h3>Move-it</h3>
+        <div>
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
+            style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)" />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/typescript.svg" />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/next-dot-js.svg" />
+        </div>
+        <p style="text-align: justify">
+          As a challange for the react course I developed this site to work as a pomodoro method with gamification
+          experience.
+          At each cycle you will receive new simple tasks like walk, get water, do some push-ups, etc.
+          The idea is to help people that stays long period of time sit in front of computer or studying to get in
+          motion 🏃‍♂️🏋️‍♀️
+        </p>
+        <a class="project-link" target="_blank" href="https://github.com/brunotdantas/move-it">Check it out!</a>
+      </div>
+    </div>
 
-			<div class="row">
-				<article class="col-12 col-12-xsmall work-item">
+    <!-- User Project #2: Dev Radar -->
+    <div class="user-projects">
+      <div class="images-left">
+        <picture>
+          <source type="image/webp"
+            srcset="https://user-images.githubusercontent.com/19207320/75402377-62679f00-58e3-11ea-9e9d-8e0e2f9a9144.gif"
+            alt="Dev Radar" />
+          <img alt="Perpetual Crusades" src="./assets/img/jpg/Perpetual-Crusades.jpg" />
+        </picture>
+      </div>
+      <div class="contents-right" style="text-align: center">
+        <h3>Dev Radar: Fullstack Mobile + Frontend + Backend application</h3>
+        <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
+          style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)" />
+        &nbsp;
+        <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/css3.svg"
+          style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)" />
+        &nbsp;
+        <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/next-dot-js.svg" />
+        &nbsp;
+        <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/mongodb.svg""
+            style=" background-color: green;" />
+        <p style="text-align: justify">
+          In this challange the goal is to find a developer near your that works with the technology that you need.
+          You can find Backend(Node JS) code
+          <a href="https://github.com/brunotdantas/Week10-omnistack-backend" target="_blank"
+            rel="noopener noreferrer">Here</a>,
+          frontend(React Js)
+          <a href="https://github.com/brunotdantas/Week10-omnistack-frontend" target="_blank"
+            rel="noopener noreferrer">Here</a> and
+          Mobile (React Native) <a href="https://github.com/brunotdantas/Week10-omnistack-mobile/" target="_blank"
+            rel="noopener noreferrer">Here</a>
+        </p>
+        <p style="text-align: justify">
+          Features and Technologies: <br>
+          <b>Mobile</b>: React Native, MongoDB, GPS location, request APIs, <a href="https://expo.io/" target="_blank"
+            rel="noopener noreferrer">Expo</a>
+          to debug in real time
+          <br>
+          <b>Front end</b>: React Single Page Application, use of GPS location, responsive layout with css3,
+          request APIs with Axios, <a href="https://expo.io/" target="_blank" rel="noopener noreferrer">Expo</a> to
+          debug in real time
+          <br>
+          <b>Back end</b>: Build solid REST API, Websocket, MongoDB storing locations with PointSchema, Yarn and NPM to
+          manage the packages
+        </p>
 
-					<a href="https://github.com/brunotdantas/move-it" target="_blank" rel="noopener noreferrer">
-						<img src="https://user-images.githubusercontent.com/19207320/122602476-44c6c780-d049-11eb-9013-749d55fc4b21.gif"
-							width="100" class="image fit thumb" alt="" />
-					</a>
-					<h3>
-						<a href="https://github.com/brunotdantas/move-it" target="_blank" rel="noopener noreferrer">
-							<u>Front-end project developed with REACTjs</u>
-						</a>
-						- Pomodoro web application developed with react, also helps you to keep active doing small
-						exercices between break pomodoro's time.
-					</h3>
-					<h5>Please find the code
-						<a href="https://github.com/brunotdantas/move-it" target="_blank"
-							rel="noopener noreferrer">Here</a>
-					</h5>
-					<h5>Technologies used in this project:
-					</h5>
+        <a class="project-link" target="_blank" href="https://github.com/brunotdantas/Week10-omnistack-mobile">Check it
+          out!</a>
+      </div>
+    </div>
 
-					<p>
-						<img src="https://image.flaticon.com/icons/png/512/919/919827.png" width="50" alt="">
-						<!-- Html5 -->
+    <!-- User Project #3: Foodfy -->
+    <div class="user-projects">
+      <div class="images-right">
+        <picture>
+          <source type="image/webp"
+            srcset="https://user-images.githubusercontent.com/19207320/122915863-9e254400-d332-11eb-8639-6e2460416490.gif"
+            alt="Foodfy" />
+          <img alt="Foodfy"
+            src="https://user-images.githubusercontent.com/19207320/122915863-9e254400-d332-11eb-8639-6e2460416490.gif" />
+        </picture>
+      </div>
+      <div class="contents" style="text-align: center">
+        <h3>Foodfy Website</h3>
+        <div>
+          <img height="32" width="32" src="./assets/img/badge/js.png" />
+          <img height="32" width="32" src="./assets/img/badge/html5.webp" />
+          <img height="32" width="32" src="./assets/img/badge/css3.webp" />
 
-						<img src="https://image.flaticon.com/icons/png/512/919/919826.png" width="50" alt="">
-						<!-- CSS3 -->
+        </div>
+        <p style="text-align: justify">
+          This website was created to show recipes, allow admin user to edit and create new recipes. This was created to
+          exercise my skills with Html + CSS + Javascript and a template engine
+          (<a href="https://mozilla.github.io/nunjucks/" target="_blank" rel="noopener noreferrer">nunjucks</a>).
+          I used a simple json to keep the data to mock a database.
+        </p>
+        <a class="project-link" target="_blank" href="https://github.com/brunotdantas/LaunchBase-foodfy-v3">
+          Check it out!
+        </a>
+      </div>
+    </div>
 
-						<img src="https://image.flaticon.com/icons/png/512/919/919828.png" width="50" alt="">
-						<!-- JS -->
+  </section>
 
-						<img src="https://image.flaticon.com/icons/png/512/919/919851.png" width="50" alt="">
-						<!-- React JS -->
+  <footer class="footer">
+    <p>&copy; Bruno Dantas, 2022</p>
+  </footer>
 
-						<img src="https://cdn.auth0.com/blog/logos/nextjs-logo.png" width="50" alt="">
-						<!-- Next JS -->
-
-						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png"
-							width="50" alt="">
-						<!-- Typescript -->
-
-					</p>
-				</article>
-			</div>
-			<br>
-			<div class="row">
-				<article class="col-12 col-12-xsmall work-item">
-
-					<a href="https://github.com/brunotdantas/Week10-omnistack-mobile/" target="_blank"
-						rel="noopener noreferrer">
-						<img src="https://user-images.githubusercontent.com/19207320/75402377-62679f00-58e3-11ea-9e9d-8e0e2f9a9144.gif"
-							class="image thumb" widht="300" alt="" />
-					</a>
-					<h3>
-						<a href="https://github.com/brunotdantas/Week10-omnistack-mobile/" target="_blank"
-							rel="noopener noreferrer">
-							<u>FULLSTACK - Mobile + Frontend + Backend</u>
-						</a>
-						- Fullstack project on Omnistack 10 of Rocketseat to deliver a SPA + Mobile app and backend in
-						node.
-					</h3>
-					<h5>You can find Backend(Node JS) code
-						<a href="https://github.com/brunotdantas/Week10-omnistack-backend" target="_blank"
-							rel="noopener noreferrer">Here</a>,
-						frontend(React Js)
-						<a href="https://github.com/brunotdantas/Week10-omnistack-frontend" target="_blank"
-							rel="noopener noreferrer">Here</a>
-						and
-						Mobile (React Native)
-						<a href="https://github.com/brunotdantas/Week10-omnistack-mobile/" target="_blank"
-							rel="noopener noreferrer">Here</a>
-					</h5>
-					<h5>Technologies used in this project:
-					</h5>
-
-					<p>
-						<img src="https://image.flaticon.com/icons/png/512/919/919827.png" width="50" alt="">
-						<!-- Html5 -->
-
-						<img src="https://image.flaticon.com/icons/png/512/919/919826.png" width="50" alt="">
-						<!-- CSS3 -->
-
-						<img src="https://image.flaticon.com/icons/png/512/919/919828.png" width="50" alt="">
-						<!-- JS -->
-
-						<img src="https://image.flaticon.com/icons/png/512/919/919851.png" width="50" alt="">
-						<!-- React JS -->
-
-						<img src="https://cdn.auth0.com/blog/logos/nextjs-logo.png" width="50" alt="">
-						<!-- Next JS -->
-
-						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png"
-							width="50" alt="">
-						<!-- Typescript -->
-
-						<img src="https://play-lh.googleusercontent.com/algsmuhitlyCU_Yy3IU7-7KYIhCBwx5UJG4Bln-hygBjjlUVCiGo1y8W5JNqYm9WW3s"
-							width="50" alt="">
-						<!-- Expo -->
-
-						<img src="https://siga0984.files.wordpress.com/2019/11/mongodb-logo.png" width="50" alt="">
-						<!-- Mongo DB -->
-
-						<img src="https://image.flaticon.com/icons/png/512/919/919825.png" width="50" alt="">
-						<!-- node -->
-
-						<img src="https://image.flaticon.com/icons/png/512/919/919830.png" width="50" alt="">
-						<!-- PHP -->
-
-						<img src="https://image.flaticon.com/icons/png/512/919/919836.png" width="50" alt="">
-						<!-- Mysql -->
-
-					</p>
-				</article>
-			</div>
-			<br>
-			<div class="row">
-				<article class="col-12 col-12-xsmall work-item ">
-					<a href="https://github.com/brunotdantas/PORTAL_COMISSOES" target="_blank"
-						rel="noopener noreferrer">
-						<img style="max-width:50%;"
-							src="https://images.unsplash.com/photo-1604594849809-dfedbc827105?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
-							class="image fit thumb" alt="" />
-					</a>
-
-					<h3>
-						<a href="https://github.com/brunotdantas/PORTAL_COMISSOES" target="_blank"
-							rel="noopener noreferrer">
-							<u>Comissions made easy</u>
-						</a>
-						- This was my Final paper of System Information in the end of 2018
-					</h3>
-
-					<h5>The purpose of this solution is to automatize the calculations of how much each salesperson
-						should receive.
-						It was built in PHP + Mysql (at first) then T-SQL (scripts to calculate comission) created from
-						scratch.</h5>
-					<h5>Technologies used in this project:
-					</h5>
-
-					<p>
-						<img src="https://image.flaticon.com/icons/png/512/919/919827.png" width="50" alt="">
-						<!-- Html5 -->
-
-						<img src="https://image.flaticon.com/icons/png/512/919/919826.png" width="50" alt="">
-						<!-- CSS3 -->
-
-						<img src="https://image.flaticon.com/icons/png/512/919/919828.png" width="50" alt="">
-						<!-- JS -->
-
-						<img src="https://image.flaticon.com/icons/png/512/919/919830.png" width="50" alt="">
-						<!-- PHP -->
-
-						<img src="https://image.flaticon.com/icons/png/512/919/919836.png" width="50" alt="">
-						<!-- Mysql -->
-					</p>
-				</article>
-			</div>
-			<br>
-
-			<div class="row">
-				<article class="col-12 col-12-xsmall work-item">
-
-					<a href="https://github.com/brunotdantas/LaunchBase-foodfy-v3" target="_blank"
-						rel="noopener noreferrer">
-						<img src="https://user-images.githubusercontent.com/19207320/122915863-9e254400-d332-11eb-8639-6e2460416490.gif"
-							class="image fit thumb" alt="" />
-					</a>
-
-					<h3>
-						<a href="https://github.com/brunotdantas/LaunchBase-foodfy-v3" target="_blank"
-							rel="noopener noreferrer">
-							<u>Foodfy</u>
-						</a>
-						- Project created on Rocketseat challanges with an ADMIN section to realize a CRUD on NoSQL
-						database using MVC
-					</h3>
-
-					<h5>Built based on a challange from <a href="https://rocketseat.com.br/">Rocketseat</a> course</h5>
-					<h5>Technologies used in this project:
-					</h5>
-
-					<p>
-						<img src="https://image.flaticon.com/icons/png/512/919/919827.png" width="50" alt="">
-						<!-- Html5 -->
-
-						<img src="https://image.flaticon.com/icons/png/512/919/919826.png" width="50" alt="">
-						<!-- CSS3 -->
-
-						<img src="https://image.flaticon.com/icons/png/512/919/919828.png" width="50" alt="">
-						<!-- JS -->
-
-						<img src="https://image.flaticon.com/icons/png/512/919/919825.png" width="50" alt="">
-						<!-- node -->
-
-						<img src="https://eseom.gallerycdn.vsassets.io/extensions/eseom/nunjucks-template/0.4.2/1620376601793/Microsoft.VisualStudio.Services.Icons.Default"
-							width="50" alt="">
-						<!-- Nunjucks -->
-
-
-					</p>
-				</article>
-			</div>
-			<div class="row">
-				<article class="col-12 col-12-xsmall work-item">
-
-					<a href="https://github.com/brunotdantas/NextJS-pokedex" target="_blank" rel="noopener noreferrer">
-						<img src="https://i.ytimg.com/vi/XehSJF85F38/maxresdefault.jpg" class="image fit thumb"
-							alt="" />
-					</a>
-					<h3>
-						<a href="https://github.com/brunotdantas/NextJS-pokedex" target="_blank"
-							rel="noopener noreferrer">
-							<u>Maratona Dev React + PostgreSQL</u>
-						</a>
-						- Project to practice React + database Cloud deployment
-					</h3>
-					<h5>Simple project to deploy a blood bank allowing user to input their data and blood type and listing interested people .</h5>
-					<h5>Technologies used in this project:
-					</h5>
-
-					<p>
-						<img src="https://image.flaticon.com/icons/png/512/919/919827.png" width="50" alt="">
-						<!-- Html5 -->
-
-						<img src="https://image.flaticon.com/icons/png/512/919/919826.png" width="50" alt="">
-						<!-- CSS3 -->
-
-						<img src="https://image.flaticon.com/icons/png/512/919/919828.png" width="50" alt="">
-						<!-- JS -->
-
-						<img src="https://image.flaticon.com/icons/png/512/919/919851.png" width="50" alt="">
-						<!-- React JS -->
-
-						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png
-" width="50" alt="">
-						<!-- PostgreSQL -->						
-						
-					</p>
-				</article>
-			</div>
-
-			<div class="row">
-				<article class="col-12 col-12-xsmall work-item">
-
-					<a href="https://github.com/brunotdantas" target="_blank" rel="noopener noreferrer">
-						<img src="images/github.png" class="image fit thumb" alt="" />
-					</a>
-					<h3>
-						<a href="https://github.com/brunotdantas/NextJS-pokedex" target="_blank"
-							rel="noopener noreferrer">
-							<u>Find more projects and repositories I worked on</u>
-						</a>
-						- Please feel free to visit my github page and see cool projects 😉.
-					</h3>
-
-				</article>
-			</div>
-		</section>
-
-		<!-- Three -->
-		<section id="three">
-			<h2>Get In Touch</h2>
-			<div class="row">
-
-				<div class="col-12 col-12-small">
-					<ul class="labeled-icons">
-						<li>
-							<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-							+55 11 982150302
-						</li>
-						<li>
-							<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-							<a href="#">brunotdantas@outlook.com</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-	</div>
-
-	<!-- Footer -->
-	<footer id="footer">
-		<div class="inner">
-			<ul class="icons">
-				<li><a href="https://twitter.com/Brunodantas_" class="icon brands fa-linkedin-in"><span
-							class="label">Twitter</span></a></li>
-				<li><a href="https://twitter.com/Brunodantas_" class="icon brands fa-twitter"><span
-							class="label">Twitter</span></a></li>
-				<li><a href="https://github.com/brunotdantas" class="icon brands fa-github"><span
-							class="label">Github</span></a></li>
-				<li><a href="mailto: brunotdantas@outlook.com" class="icon solid fa-envelope"><span
-							class="label">Email</span></a></li>
-			</ul>
-		</div>
-	</footer>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.poptrox.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-
+  <!-- Import JS: Particles Theme -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- Import JS: Sweet Scroll -->
+  <script src="./assets/js/sweet-scroll.min.js"></script>
+  <!-- Import JS: Google Analytics -->
+  <script src="./assets/js/google-analytics.js"></script>
+  <!-- Import JS: Main Script -->
+  <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
